@@ -1,0 +1,27 @@
+PAGINAS:
+  - LANDING
+  - CATEGORIA
+  - DESCUENTOS
+  - PRODUCTO
+  - CARRITO
+
+TAREAS:
+
+  [] Layout:
+    [] Header
+    [] Buscador
+    [] Slider(?)
+    [] Producto (comp)
+    [] Responsive Design
+
+  [] Filtros:
+    [] Navbar
+    [] Precio
+    [] Categoria
+    [] Talle (?)
+
+  [] Carrito:
+    [] Sidebar
+    [] Añadir productos
+    [] Eliminar productos
+    [] Limpiar carrito
