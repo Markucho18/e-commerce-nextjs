@@ -9,9 +9,12 @@ interface Props {
 const Products: React.FC<Props> = ({ products }) => {
 
   return (
-    <ul className="grid grid-cols-4 gap-4 p-2">
-      {products.slice(0, 10).map(product => (
-        <Product {...product}/>
+    <ul
+      className="w-full grid gap-4 p-2 transition-width duration-150"
+      style={{gridTemplateColumns: "repeat( auto-fit, minmax(200px, 1fr))"}}
+    >
+      {products.slice(0, 4).map((product, i) => (
+        <Product key={i} {...product}/>
       ))}
     </ul>
   )
